@@ -1,0 +1,11 @@
+/// <reference types="vite-plugin-pwa/client" />
+
+console.log('Custom Service Worker loaded!')
+
+self.addEventListener('install', (event) => {
+  console.log('Service Worker installed')
+})
+
+self.addEventListener('activate', (event) => {
+  console.log('Service Worker activated')
+})
