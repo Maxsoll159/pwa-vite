@@ -47,7 +47,7 @@ export function PWAUpdateModal() {
 
   return (
     <div className={`fixed bottom-0 right-0 m-4 p-4 bg-white shadow-lg rounded-lg ${(offlineReady || needRefresh || isInstallable) ? 'block' : 'hidden'}`}>
-      {isInstallable && (
+      
         <div className="mb-2">
           <button
             className="bg-green-500 text-white px-4 py-2 rounded mr-2"
@@ -56,7 +56,7 @@ export function PWAUpdateModal() {
             Instalar Aplicación
           </button>
         </div>
-      )}
+   
       <div className="mb-2">
         {offlineReady ? (
           <span>Aplicación lista para trabajar offline</span>
