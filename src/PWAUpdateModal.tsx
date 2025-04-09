@@ -1,5 +1,4 @@
 // src/components/PWAUpdateModal.tsx
-import { useEffect, useState } from 'react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 
 // Añade esta declaración de tipos en tu archivo (o mejor, en un archivo de tipos global)
